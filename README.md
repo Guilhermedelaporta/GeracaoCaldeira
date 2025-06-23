@@ -42,7 +42,7 @@ cd GeracaoCaldeira
 
 📌 Dica: Certifique-se de que o terminal está posicionado na raiz do projeto, e que todos os arquivos .java estejam corretamente salvos.
 
-  ## 📁 Estrutura de Diretórios
+ ```` ## 📁 Estrutura de Diretórios
   GeracaoCaldeira/
   └── br/
       └── com.geracaocaldeira/
@@ -53,7 +53,7 @@ cd GeracaoCaldeira
               ├── Agendamento.java
               ├── Array.java
               ├── Avaliacao.java
-              └── ...
+              └── ... ```
 
 ``` Exemplo do Menu 
 ╔════════════════════════════════════════════╗
