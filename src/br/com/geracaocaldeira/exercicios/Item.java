@@ -1,4 +1,4 @@
-//Cadastro com sobrecarga, Qual será a saída?
+package br.com.geracaocaldeira.exercicios;//Cadastro com sobrecarga, Qual será a saída?
 
 public class Item {
     String nome;
@@ -14,9 +14,9 @@ public class Item {
         this.quantidade = quantidade;
     }
 
-    public static void main(String[] args){
+    public static void executar() {
         Item x = new Item("Caderno");
         Item y = new Item("Caneta", 3);
-        System.out.println(x.quantidade + y.quantidade);
+        System.out.println(" 3. Cadastro com Sobrecarga a saída é: " + (x.quantidade + y.quantidade));
     }
 }

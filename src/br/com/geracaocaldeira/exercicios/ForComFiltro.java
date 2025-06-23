@@ -1,10 +1,10 @@
-// Uso de for com filtro Qual será a saída?
+package br.com.geracaocaldeira.exercicios;// Uso de for com filtro Qual será a saída?
 
 import java.util.ArrayList;
 
 public class ForComFiltro {
 
-    public static void main (String[] args){
+    public static void executar() {
 
         ArrayList<String> tarefas = new ArrayList<>();
         tarefas.add("Estudar Java");
@@ -13,7 +13,7 @@ public class ForComFiltro {
 
         for (String tarefa : tarefas){
             if (tarefa.contains("Java")) {
-                System.out.println("Tarefa de programação: " + tarefa);
+                System.out.println( " 15. Uso de for com filtro: " + "Tarefa de programação: " + tarefa);
             }
         }
     }

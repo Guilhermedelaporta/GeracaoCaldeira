@@ -1,4 +1,4 @@
-//Ordenação de tarefas com Comparable, Qual será a saída após a ordenação?
+package br.com.geracaocaldeira.exercicios;//Ordenação de tarefas com Comparable, Qual será a saída após a ordenação?
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -20,12 +20,12 @@ public class Tarefa implements Comparable<Tarefa> {
         return titulo;
     }
 
-    public static void main (String[] args){
+    public static void executar() {
         List<Tarefa> tarefas = new ArrayList<>();
         tarefas.add(new Tarefa("Estudar"));
         tarefas.add(new Tarefa("Almoçar"));
         tarefas.add(new Tarefa("Dormir"));
         Collections.sort(tarefas);
-        System.out.println(tarefas);
+        System.out.println(" 14. Ordenação de tarefas com comparable: " + tarefas);
     }
 }

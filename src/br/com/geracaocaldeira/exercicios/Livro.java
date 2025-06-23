@@ -1,4 +1,4 @@
-//Construção de classes e métodos, Qual será a saída?
+package br.com.geracaocaldeira.exercicios;//Construção de classes e métodos, Qual será a saída?
 
 public class Livro {
     String titulo;
@@ -10,16 +10,19 @@ public class Livro {
 
     public String status() {
         if (emprestado){
-            return "Indisponível";
+            return " Indisponível";
         }
-        return "Disponível";
+        return " Disponível/";
     }
 
-    public static void main(String[] args) {
+    public static void executar() {
         Livro livro1 = new Livro();
         livro1.titulo = "Java para iniciantes";
+
         System.out.println(livro1.status());
+
         livro1.emprestar();
+
         System.out.println(livro1.status());
     }
 }

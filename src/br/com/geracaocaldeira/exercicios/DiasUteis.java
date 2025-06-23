@@ -1,11 +1,11 @@
-//Cálculo de dias úteis com LocalDate, Qual será a sata impressa?
+package br.com.geracaocaldeira.exercicios;//Cálculo de dias úteis com LocalDate, Qual será a sata impressa?
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 
 public class DiasUteis {
 
-    public static void main (String[] args){
+    public static void executar() {
 
         LocalDate data = LocalDate.of(2025,6, 10);
         int diasUteis = 0;
@@ -20,7 +20,7 @@ public class DiasUteis {
                 diasUteis++;
             }
         }
-        System.out.println(data);
+        System.out.println(" 12. Calculo de dias úteis com LocalDate: " + (data));
 
     }
 

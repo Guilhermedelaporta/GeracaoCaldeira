@@ -1,8 +1,8 @@
-//Qual será o valor final de notificações?
+package br.com.geracaocaldeira.exercicios;//Qual será o valor final de notificações?
 
 public class Notificacoes {
 
-    public static void main(String[] args) {
+    public static void executar() {
 
         int notificacoes = 0;
 
@@ -14,7 +14,7 @@ public class Notificacoes {
             }
         }
 
-        System.out.println(notificacoes);
+        System.out.println(" 5. O valor final de notificações é: " + notificacoes);
     }
 
 }
