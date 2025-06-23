@@ -1,35 +1,46 @@
-# Prova Java – Geração Caldeira
+# ☕ Prova Java – Geração Caldeira
 
-Este projeto contém os exercícios resolvidos como parte da prova prática para o programa **Geração Caldeira**, promovido pelo Instituto Caldeira.
-A aplicação simula um pequeno sistema de menu interativo no terminal, exibindo as **respostas dos exercícios** organizadas em classes Java.
+Este projeto contém os exercícios resolvidos como parte da **prova prática para o programa Geração Caldeira**, promovido pelo Instituto Caldeira.  
+A aplicação simula um pequeno sistema de **menu interativo no terminal**, exibindo as **respostas dos exercícios**, organizadas em classes Java dentro de pacotes específicos.
 
-## ✅ Conteúdo abordado
+---
 
-- Manipulação de datas com `LocalDate`
-- Uso de listas (`ArrayList`) e ordenação com `Collections.sort`
-- Classes Java com construtores, métodos e encapsulamento
-- Filtros com `contains`
-- Laços de repetição com lógica condicional (`for`, `while`)
-- Uso da interface `Comparable`
+## ✅ Conteúdo Abordado
 
-  Pré-requisitos
-  Java JDK 17 ou superior
-  IntelliJ IDEA, VS Code ou qualquer IDE com suporte a Java
+- ✅ Manipulação de datas com `LocalDate`
+- ✅ Uso de listas (`ArrayList`) e ordenação com `Collections.sort`
+- ✅ Criação de classes Java com construtores, métodos e encapsulamento
+- ✅ Filtros com `contains`
+- ✅ Laços de repetição com lógica condicional (`for`, `while`)
+- ✅ Implementação da interface `Comparable` para ordenação customizada
 
-  Como Rodar o Projeto
-  Usando o Terminal
-  
-  Clone o repositório
-  git clone https://github.com/Guilhermedelaporta/GeracaoCaldeira.git
-  cd GeracaoCaldeira
+---
 
-  Compile os arquivos Java
+## 🔧 Pré-requisitos
+
+- Java JDK 17 ou superior
+- IntelliJ IDEA, VS Code ou qualquer IDE com suporte a Java
+- Terminal (CMD, PowerShell ou Bash)
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+### ✅ Usando o Terminal
+
+1. **Clone o repositório**
+
+```bash
+git clone https://github.com/Guilhermedelaporta/GeracaoCaldeira.git
+cd GeracaoCaldeira
+```
+2. **Compile os arquivos Java**
   javac br/comgeracaocaldeira/app/MainApp.java
-  Execute o app
 
+3. **Execute o app**
   java br.comgeracaocaldeira.app.MainApp
 
-  📌 Dica: Certifique-se de que o terminal está posicionado na raiz do projeto, e que todos os arquivos .java estejam corretamente salvos.
+📌 Dica: Certifique-se de que o terminal está posicionado na raiz do projeto, e que todos os arquivos .java estejam corretamente salvos.
 
   ## 📁 Estrutura de Diretórios
   GeracaoCaldeira/
@@ -44,7 +55,7 @@ A aplicação simula um pequeno sistema de menu interativo no terminal, exibindo
               ├── Avaliacao.java
               └── ...
 
- Exemplo do Menu
+``` Exemplo do Menu 
 ╔════════════════════════════════════════════╗
 ║        Bem-vindo ao App de Respostas       ║
 ╠════════════════════════════════════════════╣
@@ -56,5 +67,5 @@ A aplicação simula um pequeno sistema de menu interativo no terminal, exibindo
 ╚════════════════════════════════════════════╝
 Digite sua opção: 1
 
-Guilherme de La Porta Martins  
+Guilherme de La Porta Martins  ```
 
